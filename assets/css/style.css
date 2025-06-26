@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #547792;
+}
+header {
+  background-color: #213448;
+  font-family: "WDXL Lubrifont SC", sans-serif;
+}
+button {
+  background-color: #ecefca !important;
+  color: #213448 !important;
+  border: 4px solid #547792 !important;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "WDXL Lubrifont SC", sans-serif !important;
+}
+#texto-header {
+  font-family: "WDXL Lubrifont SC", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+.nav-link {
+  font-size: 20px;
+  color: white !important;
+}
+#logo-hero {
+  font-size: 32px;
+  background-color: #213448;
+}
+#titulo-hero {
+  font-size: 32px;
+  color: white;
+  font-family: "WDXL Lubrifont SC", sans-serif;
+}
+#descripcion-hero {
+  font-size: 20px;
+  color: white;
+}
+#descripcion h2 {
+  text-align: center;
+  color: white;
+  font-family: "WDXL Lubrifont SC", sans-serif;
+}
+.card {
+  background-color: #ecefca;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+}
+.card-text {
+  font-family: "WDXL Lubrifont SC", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: #213448;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+footer {
+  background-color: #213448;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "WDXL Lubrifont SC", sans-serif;
+}
