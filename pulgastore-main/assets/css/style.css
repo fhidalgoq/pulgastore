@@ -28,7 +28,15 @@ header {
   cursor: pointer;
   font-family: "WDXL Lubrifont SC", sans-serif !important;
 }
-
+.boton-contacto {
+  background-color: white !important;
+  color: #213448 !important;
+  border: 4px solid #547792 !important;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "WDXL Lubrifont SC", sans-serif !important;
+}
 #texto-header {
   font-family: "WDXL Lubrifont SC", sans-serif;
   font-size: 32px;
@@ -111,6 +119,11 @@ footer {
   padding: 10px;
   margin-top: 20px;
   font-family: "WDXL Lubrifont SC", sans-serif;
+}
+#contacto {
+  background-color: white;
+  font-family: "WDXL Lubrifont SC", sans-serif;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
