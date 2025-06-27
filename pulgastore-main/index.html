@@ -16,11 +16,14 @@
 <body>
   <!-- header -->
   <div class="container-flex">
+    <!--Centrar logo .png y texto del header para que estén centrados (justify-content-center/align-items-center y mx-auto)-->
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img src="https://cdn-icons-png.flaticon.com/512/4088/4088734.png" alt="logo" width="40" height="32"
+      <div class="mx-auto">
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none w-100">
+          <img src="https://cdn-icons-png.flaticon.com/512/4088/4088734.png" alt="logo" width="40" height="32"
           class="d-inline-block" />
-        <p id="texto-header">Pulga Store</p>
+          </div>
+        <p id="texto-header" class="align-items-center mx-auto">Pulga Store</p>
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item">
