@@ -37,6 +37,14 @@ header {
   cursor: pointer;
   font-family: "WDXL Lubrifont SC", sans-serif !important;
 }
+#botones-compra {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: "WDXL Lubrifont SC", sans-serif !important;
+}
 #texto-header {
   font-family: "WDXL Lubrifont SC", sans-serif;
   font-size: 32px;
