@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Pulga Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="d-flex justify-content-center py-3 mb-4 border-bottom">
+    <h1 id="texto-header">Pulga Store - Contacto</h1>
+  </header>
+  <div class="container">
+    <form class="row g-3 mt-3 bg-light p-4 rounded">
+        
+      <h2 class="mb-4 text-center">Contáctanos, te responderemos en breve</h2>
+
+      <!-- NOMBRE APELLIDO -->
+      <div class="col-6">
+        <label for="inputname" class="form-label">Nombre y Apellido</label>
+        <input type="text" class="form-control" id="inputname" placeholder="Nombre Apellido">
+      </div>
+
+      <!-- CORREO ELECTRONICO -->
+      <div class="col-6">
+        <label for="emailinput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailinput" placeholder="Escribe tu Email">
+      </div>
+
+      <!-- MENSAJE -->
+      <div class="col-12">
+        <label for="inputmessage" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="inputmessage" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+      </div>
+
+      <!-- TERMINOS -->
+      <div class="col-12">
+        <div class="form-check">
+          <input type="checkbox" id="checkTerms" class="form-check-input">
+          <label for="checkTerms" class="form-check-label">Acepto los términos</label>
+        </div>
+      </div>
+
+      <!-- BOTÓN -->
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+
+    </form>
+  </div>
+
+  <footer class="mt-5">
+    <p>Pulga Store - 2025 - Contacto</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
